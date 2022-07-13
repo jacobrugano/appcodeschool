@@ -105,58 +105,63 @@ header .navbar ul li a:hover{
 .home .content{
   min-height: 100vh; /* To set the height of the home top page */
   width: 50rem; /* To set the width of select form area */
-  background:rgba(51, 46, 46, 0.1); /* To set the background color of the box area */
-  backdrop-filter: blur(.3rem); /* to determine the level of blur of the box background */
+  background:rgba(46, 48, 51, 0.1); /* To set the background color of the box area */
+  backdrop-filter: blur(.9rem); /* to determine the level of blur of the box background */
   text-align: center;
   padding:4rem 4rem; /* Padding of the box inside the faded box-area*/
 }
 
 .home .content h1{
   font-size: 4rem; 
+  font-weight: 900;
   padding-top: 1vh; /* Padding of the box inside from the top */
-  color:#fff; /* Color of the heading */
+  color:rgb(1, 24, 66); /* Color of the heading */
   text-transform: uppercase; /* To make the entire heading into uppercase */
 }
 
 .home .content h3{
-  font-size: 3rem; 
-  color:#eee;
+  font-size: 2.5rem; 
+  color:rgb(1, 24, 66);
   font-weight: lighter; /* To lighten the weight of the font */
+
 }
 
 .home .content .form-container form{
   width: 90%; /* Width of the form inside highlight area */
-  background:rgb(179, 176, 176); /* To determine the background color of the box */
+  background:rgb(112, 111, 111); /* To determine the background color of the box */
   padding: 1rem 1rem; /* The padding of the wording and box from the edges of the box */
-  margin-top: 1rem;
+  margin-top: 3rem;
   border-radius: 1rem;
   box-shadow: 0 0.6rem .5rem .7rem rgba(10, 10, 10, 0.3);
   opacity: 0.7; /* The opacity and transparency of the box */
+  margin-left: 10px;
 }
 
 .home .content .form-container form h3{
-  font-size: 2.5rem; /* To determine the font-size of the h3 */
+  font-size: 1.8rem; /* To determine the font-size of the h3 */
   padding:2rem 1rem; /* To determine padding of the heading from the edges */
-  color:rgb(3, 3, 3); /* To determine the color of the heading */
+  color: rgb(1, 24, 66); /* To determine the color of the heading */
   font-weight: 500; /* To determine the weight of the h3 */
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .home .content .form-container form span{
-  font-size: 2rem; /* To determine the font sixe of the heading */
+  font-size: 1.5rem; /* To determine the font sixe of the heading */
   display: block;
   padding:1rem 0;  /* To determine the padding/margins of the sub-topics from each other */
-  color:rgb(245, 12, 12);
+  color: whitesmoke;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .home .content .form-container form input{
   height:3rem; /* Height of the typing boxes */
+  font-weight: 600;
   width: 100%; /* width of the typing boxes */
   padding:0 1rem; /* padding of the wordings inside the typing boxes */
-  font-size: 1.4rem; /* font-size of the wordings inside the typing boxes */
-  background:#eee; /* background of the wordings inside the typing boxes */
+  font-size: 1.2rem; /* font-size of the wordings inside the typing boxes */
+  background:rgb(165, 164, 164); /* background of the wordings inside the typing boxes */
 } 
 
 .home .content .form-container form .btn{ /* styling for the submit button */
