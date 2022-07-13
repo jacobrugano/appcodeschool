@@ -131,7 +131,7 @@ header .navbar ul li a:hover{
   background:rgb(112, 111, 111); /* To determine the background color of the box */
   padding: 1rem 1rem; /* The padding of the wording and box from the edges of the box */
   margin-top: 3rem;
-  border-radius: 1rem;
+  border-radius: 3rem;
   box-shadow: 0 0.6rem .5rem .7rem rgba(10, 10, 10, 0.3);
   opacity: 0.7; /* The opacity and transparency of the box */
   margin-left: 10px;
@@ -162,6 +162,8 @@ header .navbar ul li a:hover{
   padding:0 1rem; /* padding of the wordings inside the typing boxes */
   font-size: 1.2rem; /* font-size of the wordings inside the typing boxes */
   background:rgb(165, 164, 164); /* background of the wordings inside the typing boxes */
+  border-radius: .6rem;
+  box-shadow: .2rem .2rem  .2rem .2rem rgb(20, 9, 9);
 } 
 
 .home .content .form-container form .btn{ /* styling for the submit button */
